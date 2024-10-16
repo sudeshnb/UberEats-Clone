@@ -51,85 +51,44 @@ Welcome to the **Uber Eats Clone** app, a powerful Flutter-based food delivery a
 
 ```bash
 lib/
-├── core/
-│   ├── constants/
-│   │   └── colors.dart
-│   │   └── styles.dart
-│   │   └── api_routes.dart
-│   └── utils/
-│       └── helpers.dart
-│       └── validators.dart
-├── data/
-│   ├── models/
-│   │   └── user_model.dart
-│   │   └── restaurant_model.dart
-│   │   └── menu_item_model.dart
-│   │   └── order_model.dart
-│   ├── providers/
-│   │   └── auth_provider.dart
-│   │   └── restaurant_provider.dart
-│   │   └── order_provider.dart
-│   └── services/
-│       └── api_service.dart
-│       └── location_service.dart
-├── presentation/
-│   ├── screens/
-│   │   ├── auth/
-│   │   │   └── login_screen.dart
-│   │   │   └── signup_screen.dart
-│   │   ├── home/
-│   │   │   └── home_screen.dart
-│   │   ├── restaurant/
-│   │   │   └── restaurant_list_screen.dart
-│   │   │   └── restaurant_detail_screen.dart
-│   │   ├── cart/
-│   │   │   └── cart_screen.dart
-│   │   ├── order/
-│   │   │   └── order_history_screen.dart
-│   │   │   └── order_tracking_screen.dart
-│   │   ├── profile/
-│   │       └── profile_screen.dart
-│   └── widgets/
-│       └── custom_button.dart
-│       └── custom_text_field.dart
-│       └── restaurant_tile.dart
-│       └── order_card.dart
+├── app/
+├── src/
+│   ├── core/
+│   │   └── constants/
+│   │   └── utils/
+│   ├── data/
+│   │   └── implements/
+│   │   └── models/
+│   │   └── sources/
+│   ├── domain/
+│   │   └── entities/
+│   │   └── repositories/
+│   │   └── usecases/
+│   └── presentation/
+│       └── screens/
+│       └── widgets/
 ├── routes/
-│   └── app_routes.dart
-│   └── app_router.dart
-├── state/
-│   └── auth_state.dart
-│   └── order_state.dart
-│   └── cart_state.dart
 └── main.dart
 
 assets/
-├── images/
-│   └── logo.png
-│   └── food.png
+├── img/
 ├── icons/
-│   └── home_icon.png
-│   └── cart_icon.png
+├── jsons/
+├── translations/
 └── fonts/
-    └── Roboto-Regular.ttf
-    └── Roboto-Bold.ttf
+
 
 test/
 ├── unit_tests/
-│   └── auth_provider_test.dart
-│   └── restaurant_provider_test.dart
 ├── widget_tests/
-│   └── home_screen_test.dart
 └── integration_tests/
-    └── order_flow_test.dart
 
-pubspec.yaml
 
 ```
 
 ## 📋 Roadmap
 
-We are actively developing this app. You can check our [Roadmap](#) to follow the development process.
+We are actively developing this app. You can check our [Roadmap](https://docs.google.com/document/d/1-MzRo1t8IlE4OnEPCplTFu0HgZXpLH-uh5fXij0-cTU/edit?usp=sharing) to follow the development process.
 
 ### Key Milestones:
 1. **MVP Development**: Basic features, user authentication, food ordering.
@@ -143,11 +102,11 @@ Follow these steps to get started with the Uber Eats Clone app:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/UberEatsClone.git
+   git clone https://github.com/sudeshnb/UberEats-Clone.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd UberEatsClone
+   cd UberEats-Clone
    ```
 3. Install dependencies:
    ```bash
@@ -168,19 +127,19 @@ Follow these steps to get started with the Uber Eats Clone app:
 
 Our app's design is user-friendly and follows modern design principles. Check out the full design on Figma:
 
-[Figma Design File](#)
+[Figma Design File](https://www.figma.com/design/OyGnkb6ZdzWUQgCyuPfb6j/Uber-Eats-Clone---Onyxsio?node-id=0-1&t=Es7u8rQEs39wMt6Q-1)
 
 ## 📖 Documentation
 
 We’ve created detailed documentation for developers to help you navigate through the code. Head over to our Notion page for full documentation:
 
-[Project Documentation on Notion](#)
+[Project Documentation on Notion](https://www.notion.so/Uber-Eats-Clone-121a75a567fb8006ad24f14181e323e7?pvs=4)
 
 ## 🗺️ Roadmap & Future Plans
 
 You can explore the project’s roadmap to understand our development journey and future goals:
 
-[Roadmap Document](#)
+[Roadmap Document](https://www.notion.so/Uber-Eats-Clone-121a75a567fb8006ad24f14181e323e7?pvs=4)
 
 ## 🤝 Contributions
 
@@ -188,13 +147,9 @@ We welcome contributions from the open-source community! Feel free to submit iss
 
 ## 🧑‍💻 Contributors
 
-- [Your Name](https://github.com/yourusername)
-- [Contributor 2](https://github.com/contributor2)
+- [Sudesh Bandara](https://github.com/sudeshnb)
 
 ## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
-
-With this template, you can ensure a clean and SEO-optimized GitHub README that will attract other developers and users to your project. Just replace the placeholders with the actual URLs for your Figma design, Notion documentation, and roadmap doc.
