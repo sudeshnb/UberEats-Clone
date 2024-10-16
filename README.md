@@ -21,11 +21,11 @@
 </svg>
 
 ---
-
+<div align="center" class="row">
 <img src="https://github.com/user-attachments/assets/15e228be-c25d-429c-a7ca-3fbe23421585" width="100" title="Uber Eats Logo" alt="Uber Eats Logo"/>
 
 # 🍔 Uber Eats Clone - Flutter App
-
+</div>
 
 Welcome to the **Uber Eats Clone** app, a powerful Flutter-based food delivery application inspired by Uber Eats. This app features a seamless UI/UX design, real-time food ordering, map integration, and a robust backend for managing restaurants, delivery partners, and customers. Whether you're a developer or entrepreneur, this project is a great starting point for building a food delivery platform.
 
